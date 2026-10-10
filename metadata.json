@@ -1,0 +1,6 @@
+{
+  "name": "Brigaderia Pedaço do Céu | Brownies, Copos da Felicidade & Doces",
+  "description": "Doceria artesanal em Taboão da Serra especializada em brownies fudge, copos da felicidade montados na hora, morangos do amor gourmet e brigadeiros finos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

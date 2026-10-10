@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Open Sans', system-ui, -apple-system, sans-serif;
+
+    /* Semantic HSL Palette */
+    --color-primary: 199 89% 48%; /* #0EA5E9 Azul Oceano */
+    --color-primary-dark: 201 96% 32%; /* #0369A1 Azul Oceano Profundo */
+    --color-primary-light: 199 95% 74%; /* #38BDF8 */
+    --color-ice-white: 210 40% 98%; /* #F8FAFC Branco Gelo */
+    --color-cream-base: 40 43% 97%; /* #FAF7F2 Fundo Creme Acolhedor */
+    --color-cream-surface: 40 33% 94%; /* #F5F0E6 */
+    --color-crust-gold: 38 92% 50%; /* #F59E0B Dourado do Forno */
+    --color-chocolate-dark: 24 10% 12%; /* #292524 Texto Café Escuro */
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #FAF7F2;
+    color: #292524;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Custom hairline borders and bakery warm gradients */
+.border-hairline {
+  border-width: 1px;
+  border-color: rgba(41, 37, 36, 0.08);
+}
+
+.shadow-subtle {
+  box-shadow: 0 4px 20px -2px rgba(41, 37, 36, 0.05), 0 2px 6px -1px rgba(41, 37, 36, 0.02);
+}
+
+.shadow-warm-lg {
+  box-shadow: 0 16px 36px -8px rgba(14, 165, 233, 0.12), 0 8px 16px -4px rgba(41, 37, 36, 0.06);
+}
+
+/* Grain texture overlay */
+.bg-warm-grain {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(rgba(14, 165, 233, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
